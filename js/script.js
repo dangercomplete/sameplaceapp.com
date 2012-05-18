@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('#email').example('email@example.com');
+  $('.email').example('email@example.com');
   $('#inviteform').submit(function(e) {
     $.ajax({
       url: this.action,
