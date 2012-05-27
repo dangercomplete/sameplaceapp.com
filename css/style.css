@@ -131,6 +131,10 @@ div.column {
   vertical-align:middle;
 }
 
+li {
+  text-align:left;
+  margin-bottom:20px;
+}
 
 p {
   max-width:600px;
