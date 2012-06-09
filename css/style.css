@@ -79,10 +79,10 @@ body {
 }
 
 #header {
-  font-size:64px;
+  font-size:48px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-weight:bold;
-  margin-bottom:30px;
+  margin-bottom:10px;
   overflow:auto;
 }
 
@@ -109,6 +109,16 @@ form {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'PT Sans Narrow', sans-serif;
+  margin:0 0 20px 0;
+  padding:0;
+}
+
+h3 {
+  font-weight:normal;
+  font-size:24px;
+  text-align:center;
+  margin-left:10%;
+  margin-right:10%;
 }
 
 div.holder {
@@ -185,8 +195,8 @@ input.interest {
   font-family: 'PT Sans Narrow', sans-serif;
 }
 
-input[type=submit] {
-  width:180px;
+#try {
+  width:300px;
   -moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
   -webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
   box-shadow:inset 0px 1px 0px 0px #cae3fc;
@@ -200,21 +210,21 @@ input[type=submit] {
   border:1px solid #469df5;
   display:inline-block;
   color:#ffffff;
-  font-size:15px;
+  font-size:36px;
   font-weight:bold;
   padding:6px 24px;
   text-decoration:none;
   text-shadow:1px 1px 0px #287ace;
 }
 
-input[type=submit]:hover {
+#try:hover {
   background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
   background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
   background-color:#4197ee;
 }
 
-input[type=submit]:active {
+#try:active {
   position:relative;
   top:1px;
 }
